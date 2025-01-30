@@ -1,0 +1,45 @@
+.bg-container{
+    background-color: rgb(0, 0, 0,0.5);
+    width: 100vh;
+    height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    background-color: rgb(142, 255, 142);
+    color: black;
+    padding: 8px;
+    border-radius: 10px;
+    text-align: center;
+    width: 600px;
+    color: black;
+}
+.contentError{
+    background-color: rgb(255, 255, 255);
+    color: red !important;
+    padding: 8px;
+    border-radius: 10px;
+    text-align: center;
+    width: 600px;
+    color: black;
+}
+@media (max-width: 768px) {
+    .content{
+        width: 320px;
+        font-size: 12px;
+    }
+    .contentError{
+        width: 320px;
+        font-size: 12px;
+    }
+}
+.span{
+    color: #007bff;
+    text-transform: uppercase;
+    text-shadow: 0 0 3px #FF0000;
+}
